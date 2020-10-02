@@ -25,7 +25,7 @@ SECRET_KEY = 'gns3_3gu!c9th9v0c%7nc)h17se+3*=#j%p9ceqtflixe+byj8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["w10-noute", "192.168.88.16"]
 
 
 # Application definition
@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mikrotik',
+    'rest_framework',
+
 ]
 
 MIDDLEWARE = [
