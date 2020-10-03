@@ -25,7 +25,7 @@ SECRET_KEY = 'gns3_3gu!c9th9v0c%7nc)h17se+3*=#j%p9ceqtflixe+byj8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "*.pythonanywhere.com"]
+ALLOWED_HOSTS = ["127.0.0.1", ".pythonanywhere.com"]
 
 
 # Application definition
