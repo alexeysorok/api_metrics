@@ -15,5 +15,5 @@ class MetricMikrotik(models.Model):
         return "Host Name: " + self.host + ", " \
                + "Date: " + str(self.date.astimezone().strftime("%b %d %Y %H:%M:%S")) \
                + ", DOWN: " + size(self.traff_download, system=si) \
-               + ", UP: " + size(self.traff_uploads , system=si)
+               + ", UP: " + size(self.traff_uploads, system=si)
 
